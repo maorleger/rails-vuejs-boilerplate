@@ -1,0 +1,15 @@
+inherit_gem:
+  rubocop-rails:
+    - config/rails.yml
+
+Rails:
+  Enabled: true
+
+Metrics/BlockLength:
+  Exclude:
+    - 'Rakefile'
+    - '**/*.rake'
+    - 'test/**/*.rb'
+    - 'spec/**/*.rb'
+    - 'db/schema.rb'
+
