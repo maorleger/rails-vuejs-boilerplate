@@ -14,5 +14,5 @@ RUN yarn install
 COPY . $APP_HOME
 
 EXPOSE 4000
-CMD ["npm", "run", "dev"]
+CMD ["yarn", "dev"]
 

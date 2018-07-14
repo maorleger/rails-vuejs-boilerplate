@@ -47,5 +47,3 @@ services:
       - /app/node_modules
     depends_on:
       - api
-    environment:
-      NODE_ENV: development
